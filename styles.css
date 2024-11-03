@@ -1,0 +1,56 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #FCFBF4; 
+    color: #1e1a09;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+main {
+    max-width: 600px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.spacer {
+    height: 20px;
+}
+
+a {
+    color: #e27272; /* Similar to the blue in your image */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: monospace;
+    margin-top: 1rem;
+    white-space: pre-wrap; /* Wrap long lines if necessary */
+}
+
